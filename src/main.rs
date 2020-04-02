@@ -33,6 +33,10 @@ fn doesnt_work() {
         let i = 1;
         arr[i];
     }
+    // OR
+    {
+        unimplemented!()
+    }
 }
 
 fn does_work() {
